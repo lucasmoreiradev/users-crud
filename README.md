@@ -9,6 +9,4 @@ Passos para executar:
 
 :+1:
 
-Aplicação sendo feita seguindo as aulas do canal `tp developer`., no YouTube.
-
-[https://www.youtube.com/watch?v=TAZaYjk7klo](Link das aulas)
+Aplicação sendo feita seguindo as [aulas](https://www.youtube.com/watch?v=TAZaYjk7klo) do canal `tp developer`, no YouTube.
