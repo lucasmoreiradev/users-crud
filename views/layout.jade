@@ -1,0 +1,24 @@
+doctype html
+html
+	head
+		title NodeJS
+		link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		div(class='navbar navbar-inverse navbar-fixed-top')
+			div(class='container')
+				div(class='navbar-header')
+					a(href='/' class='navbar-brand') Sistema NodeJS
+				div(class='navbar-collapse collapse' id='navbar-main')
+					ul(class='nav navbar-nav')
+						li(class='dropdown')
+							a(href='/users') Usuários
+						li
+							a(href='') Teste
+						li 
+							a(href='') Outro Teste
+	div(class='container')
+		block content
+
+		footer
+			p Desenvolvido por Lucas Moreira

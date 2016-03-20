@@ -1,0 +1,33 @@
+extends ../layout
+
+block content
+	h1 Usuários 
+	hr
+	br
+	a(href="/users/create", class="btn btn-success", title="Cadastrar") Cadastrar
+	br
+	if msgUpdate
+		div(class="alert alert-info") 
+			p Registro atualizado com sucesso.
+	br
+	table(class="table")
+		thead
+			tr
+				th ID
+				th Nome
+				th Login
+				th Senha
+				th Data Cadastro
+				th Ações
+		tbody
+			each valor, i in lista
+				tr
+					td #{valor._id}
+					td #{valor.nome}
+					td #{valor.login}
+					td #{valor.senha}
+					td #{valor.data_cad}
+					td 
+						a(href="/users/edit/#{valor._id}", title="editar", class="btn btn-info") Editar
+						&nbsp
+						a(href="/users/show/#{valor._id}", title="visualizar", class="btn btn-primary") Visualizar 
