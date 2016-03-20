@@ -11,4 +11,4 @@ Passos para executar:
 
 Aplicação sendo feita seguindo as aulas do canal `tp developer`., no YouTube.
 
-(https://www.youtube.com/watch?v=TAZaYjk7klo)[Link das aulas]
+[https://www.youtube.com/watch?v=TAZaYjk7klo](Link das aulas)
