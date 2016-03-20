@@ -20,6 +20,12 @@ router
 			res.render('users/edit', {value: data});	
 		});
 	})
+	.get('/show/:id', function(req, res) {
+		User.findById(req.params.id, function(erro, data) {
+			if (erro) console.log(erro);
+			res.render('users/show', {value: data});	
+		});
+	})
 	.post('/', function(req, res) {
 		var model =	new User(req.body);
 		model.save(function(erro, data) {
@@ -38,7 +44,12 @@ router
 				res.redirect('/users');
 			});
 		});	
+	})
+	.delete('/:id', function(req, res){
+		User.remove({_id: req.params.id}, function(erro) {
+			if (erro) console.log(erro);
+			res.redirect('/users');
+		})
 	});
-	
 
 module.exports = router;

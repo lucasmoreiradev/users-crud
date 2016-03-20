@@ -1,0 +1,14 @@
+extends ../layout
+block content
+	h1=value.nome
+	hr
+	br
+	p ID: #{value._id}
+	p Login: #{value.login}
+	p Data de Cadastro: #{value.data_cad}
+	br
+	form(method="POST" action="/users/#{value._id}?_method=DELETE")
+		input(type="submit" value="Excluir Registro" class="btn btn-danger")
+	br
+	
+	a(href="/users", class="") Voltar
