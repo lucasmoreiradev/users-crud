@@ -1,5 +1,3 @@
-Minha primeira aplicação em Node.js.
-
 - Node.js
 - Express 4.x
 - Jade
@@ -15,4 +13,4 @@ Passos para executar:
 
 :+1:
 
-Aplicação sendo feita seguindo as [aulas](https://www.youtube.com/watch?v=TAZaYjk7klo) do canal `tp developer`, no YouTube.
+Aplicação feita seguindo as [aulas](https://www.youtube.com/watch?v=TAZaYjk7klo) do canal `tp developer`, no YouTube.
