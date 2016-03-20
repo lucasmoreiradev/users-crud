@@ -2,7 +2,7 @@ Minha primeira aplicação em Node.js
 
 Passos para executar:
 
-1. Rodar este projeto;
+1. Clonar este projeto;
 2. `npm install`
 3. `node bin/www`
 4. abrir `localhost:3000` no navegador.
