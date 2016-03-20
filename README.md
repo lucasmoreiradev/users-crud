@@ -1,6 +1,9 @@
 Minha primeira aplicação em Node.js.
 
+- Node.js
 - Express 4.x
+- Jade
+- MongoDB
 
 Passos para executar:
 
