@@ -1,4 +1,6 @@
-Minha primeira aplicação em Node.js
+Minha primeira aplicação em Node.js.
+
+- Express 4.x
 
 Passos para executar:
 
